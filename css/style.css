@@ -1,6 +1,4 @@
-* {
-	border: 1px solid black;
-}
+/* GENERAL */
 body {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -8,10 +6,18 @@ body a:hover {
 	text-decoration: none;
 }
 
+
+
+/* NAVBAR */
 .navbar li {
 	font-size: 1.25em;
 }
 
+.navbar-brand img {
+	padding-bottom: 10px;
+}
+
+/* HOME PAGE */
 .jumbotron {
 	background-image: url("../images/header.jpg");
 	padding: 20%;
@@ -25,6 +31,7 @@ body a:hover {
 .jumbotron h1 {
 	font-family: 'Amatic SC', sans-serif;
 	font-size: 5em;
+	font-weight: 700;
 	color: #323232;
 	position: absolute;
 	top: 10;
@@ -54,9 +61,8 @@ body a:hover {
 }
 
 .features img {
-	min-width: 300px;
-	height: auto;
-	margin: 2% 10%;
+	width: 300px;
+	margin: 2% auto;
 	border-radius: 50%;
 }
 
@@ -67,32 +73,38 @@ body a:hover {
 	padding: 10px;
 }
 
-#header{
+
+/* SUB-PAGES */
+.header {
 	background-image: url("../images/header.jpg");
-	width: 110%
 }
 
-#header h1{
+.header h1{
 	font-family: 'Amatic SC', sans-serif;
 	font-size: 4em;
+	font-weight: 700;
 	text-align: right;
 	color: #323232;
 	padding-top: 75px;
-	margin-right: 8%
+	margin-right: 2%
 }
 
+/* ABOUT PAGE */
 #bio img {
 	position: center;
+	margin: auto;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
 
 #bio p {
+	font-size: 1.25em;
 	text-align: right;
 	color: #323232;
 	padding-top: 25px
 }
 
+/* CONTACT PAGE*/
 #contact li {
 	display: block;
 	list-style: none;
@@ -114,7 +126,14 @@ body a:hover {
 	color: #ff6f4d;
 }
 
+/* CODE PAGE */
+.coming-soon {
+	text-align: center;
+	margin: 300px 0;
+	width: 100%
+}
 
+/* FOOTER */
 footer {
 	background-color: #ff6f4d;
 	position: absolute;
@@ -134,7 +153,6 @@ footer a:hover {
 
 footer p {
 	font-family: 'Amatic SC', sans-serif;
-
 	float: left;
 	padding: 2%;
 }
