@@ -1,3 +1,7 @@
+/** {
+	border: 1px solid black;
+}*/
+
 /* GENERAL */
 body {
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -5,8 +9,6 @@ body {
 body a:hover {
 	text-decoration: none;
 }
-
-
 
 /* NAVBAR */
 .navbar li {
@@ -56,7 +58,6 @@ body a:hover {
 
 .features {
 	padding: 2%;
-	background-color: #f7fafe;
 	width: 100%;
 }
 
@@ -87,6 +88,21 @@ body a:hover {
 	color: #323232;
 	padding-top: 75px;
 	margin-right: 2%
+}
+
+.year {
+	margin-left: 30px;
+	width: 100%
+
+}
+
+.gallery {
+	width: 100%
+}
+
+.gallery img {
+	margin: auto;
+	padding: 10px 0;
 }
 
 /* ABOUT PAGE */
@@ -126,7 +142,7 @@ body a:hover {
 	color: #ff6f4d;
 }
 
-/* CODE PAGE */
+/* COMING SOON */
 .coming-soon {
 	text-align: center;
 	margin: 300px 0;
